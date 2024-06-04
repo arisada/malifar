@@ -10,12 +10,9 @@ baseconfig = {
     "timeout": 90,
     "maxcomplexity":39,
     "concurrency": 1,
-    "domains":{
-        "name":"example",
-        "maxreqs": 20,
-        "concurrency": 2,
-        "timeout": 5
-    }
+    "domains": [
+        { "name":"example", "maxreqs": 20, "concurrency": 2, "timeout": 5}
+    ]
 }
 
 try:
